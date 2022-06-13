@@ -270,6 +270,11 @@ function App() {
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
                 <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  Max NFT allowed to mint per address: 5
+                </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
