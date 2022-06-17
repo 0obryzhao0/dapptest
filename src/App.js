@@ -273,7 +273,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Max amount of NFT to buy per address: 5
+                  Max amount of NFT to buy per address: 20
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
